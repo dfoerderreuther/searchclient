@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<ItemSearchResponse
+			xmlns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+			<OperationRequest>
+				<HTTPHeaders>
+					<Header Name="UserAgent" Value="JAX-WS RI 2.2.7-b01  svn-revision#13316"></Header>
+				</HTTPHeaders>
+				<RequestId>9744152a-6ba2-4a43-a140-67abc7c2eb7b</RequestId>
+				<Arguments>
+					<Argument Name="Service" Value="AWSECommerceService"></Argument>
+				</Arguments>
+				<RequestProcessingTime>0.0053350000000000</RequestProcessingTime>
+			</OperationRequest>
+			<Items>
+				<Request>
+					<IsValid>False</IsValid>
+					<ItemSearchRequest>
+						<Keywords>java web services up and running oreilly</Keywords>
+						<SearchIndex>Books</SearchIndex>
+					</ItemSearchRequest>
+					<Errors>
+						<Error>
+							<Code>AWS.InvalidAccount</Code>
+							<Message>Ihre Zugriffsschlüssel-ID ist nicht für das Produktwerbungs-API registriert. Verwenden Sie die
+								Zugriffsschlüssel-ID, die Sie nach der Registrierung bei
+								https://partnernet.amazon.de/gp/flex/advertising/api/sign-in.html
+								erhalten haben.</Message>
+						</Error>
+					</Errors>
+				</Request>
+			</Items>
+		</ItemSearchResponse>
+	</S:Body>
+</S:Envelope>
